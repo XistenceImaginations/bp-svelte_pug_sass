@@ -1,0 +1,41 @@
+{
+  "name": "bp-svelte_pug_sass",
+  "version": "1.0.0",
+  "description": "A boilerplate for using Svelte with SASS and Pug",
+  "keywords": [
+    "svelte",
+    "sass",
+    "pug"
+  ],
+  "homepage": "https://github.com/XistenceImaginations/bp-svelte_pug_sass",
+  "author": {
+    "name": "K. P. Uecker aka Xistence Imaginations"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "node-sass": "^4.14.1",
+    "postcss": "^7.0.32",
+    "pug": "^3.0.0",
+    "pug2svelte": "0.0.2-alpha.9",
+    "rollup": "^2.3.4",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "serialize-javascript": "^4.0.0",
+    "svelte": "^3.0.0",
+    "svelte-preprocess": "^4.0.11",
+    "svelte-preprocess-sass": "^0.2.0"
+  },
+  "dependencies": {
+    "sirv-cli": "^1.0.0"
+  }
+}
